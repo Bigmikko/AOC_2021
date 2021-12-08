@@ -1,0 +1,10 @@
+/////////////////////////////////
+/////	Advent of Code 2021	/////
+/////						/////
+/////						/////
+/////	by Bigmikko			/////
+/////////////////////////////////
+
+#include "Header.h"
+
+void open_file(std::fstream& file, int day);
