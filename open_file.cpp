@@ -1,8 +1,8 @@
             //\\
-	   //__\\
-	  //____\\
-	 //______\\
-	//_Advent_\\
+           //__\\
+          //____\\
+         //______\\
+        //_Advent_\\
        //____Of____\\
       //____Code____\\
      //______________\\
@@ -16,9 +16,9 @@
 #include "header.h"
 
 void open_file(std::fstream& file, int day) {
-	//Opens the file
 
-	file.open(input.txt, ios::in);
+	//Opens the file
+	file.open("input.txt, ios::in);
 
 	//Checks if it can be opened, otherwise quits out
 	if (!file.is_open()) {
